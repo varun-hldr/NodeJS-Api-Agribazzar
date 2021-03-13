@@ -43,6 +43,10 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+  res.send("Health Ok");
+});
+
 // Set up routes
 app.use("/auth", authRouter);
 app.use("/users", userRouter);
