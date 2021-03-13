@@ -18,6 +18,6 @@ module.exports = {
     cookieKey: "mycookiekey",
   },
   CLIENT_HOME_PAGE_URL: "http://localhost:3000",
-  callbackURL: { URL: "http://localhost:3100/" },
+  callbackURL: { URL: "https://agribazzar-api.herokuapp.com/" },
   token: { TOKEN_SECRET: "bvhghvg86" },
 };
